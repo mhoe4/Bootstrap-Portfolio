@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("../images/white_sand.png");
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  position: relative;
+}   
+
+header {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  border-bottom: 1.5px solid #cccccc;
+}
+
+/* .navbar-collapse.collapse.in {
+  display: block!important;
+} */
