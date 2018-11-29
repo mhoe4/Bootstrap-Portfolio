@@ -93,7 +93,7 @@ footer .row > div {
   display: table;
 }
 
-footer p {
+.footer {
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
