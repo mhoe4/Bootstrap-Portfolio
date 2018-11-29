@@ -41,6 +41,14 @@ h1 {
   font-weight: bold !important;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover, a:active {
+  background-color: #a0a0a0;
+}
 .main-section {
   
   background-color: #ffffff;
@@ -63,7 +71,9 @@ h2 {
   font-weight: bold !important;
 }
 
-.bio-section, .contact-section {
+.bio-section, 
+.contact-section,
+.portfolio-section {
   padding-top: 10px;
 }
 
@@ -98,6 +108,24 @@ input[type=submit] {
   color: #ffffff;
   border:0 none;
   cursor:pointer;
+}
+
+.porfolio-item {
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+h3 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 5px;
+  background-color: #4aaaa5;
+  color: #ffffff !important;
 }
 
 footer {
