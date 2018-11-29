@@ -28,7 +28,6 @@ header {
 .navbar-brand {
   margin-top: -15px;
   height: 60px;
-  margin-left: 35px;
 }
 
 h1 {
@@ -83,12 +82,19 @@ footer {
   height: 50px;
   color: #c2c2c2;
   font-size: 8px;
-  text-align: center;
-  position: relative;
 }
 
-.footer-text {
-  position: absolute;
-  bottom: 0;
-  display: inline-block;
+footer div {
+  height: 100%;
+}
+
+footer .row > div {
+  width: 100%;
+  display: table;
+}
+
+footer p {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
 }
