@@ -26,8 +26,9 @@ header {
 }
 
 .navbar-brand {
-  margin-top: -20px;
+  margin-top: -15px;
   height: 60px;
+  margin-left: 35px;
 }
 
 h1 {
