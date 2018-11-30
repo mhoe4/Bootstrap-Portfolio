@@ -1,93 +1,48 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
+/*
+ * css to modify bootstrap settings and add my own details
+*/
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
   background-image: url("../images/white_sand.png");
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  position: relative;
-}   
-
-header {
-  font-family: 'Georgia', Times, 'Times New Roman', serif !important;
+  background-repeat: repeat;
   background-color: #ffffff;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 64px;
-  border-bottom: 1.5px solid #cccccc;
 }
 
-.navbar-brand {
-  margin-top: -15px;
-  height: 60px;
-}
-
-h1 {
-  padding: 15px 15px 15px 15px;
-  font-size: 28px !important;
-  color: #ffffff !important;
-  background-color: #4aaaa5;
-  border-left: 1px solid #2c928d;
-  border-right: 1px solid #2c928d;
-  text-align: center;
-  font-weight: bold !important;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: #777777;
-}
-
-a:hover, a:active {
-  background-color: #a0a0a0;
-}
 .main-section {
-  
+  margin-bottom: 70px;
+}
+
+.my-bg-primary {
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+.my-bg-reverse {
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  margin-top:60px;
-  margin-bottom: calc(50vh - 70px);
+  color: #4aaaa5;
+}
+
+.my-text-primary {
   color: #777777;
-  padding: 0px 25px 30px 25px;
-  line-height: 2;
 }
 
-h2 {
-  font-size: 28px !important;
-  color: #4aaaa5 !important;
-  border-bottom: 2px solid #dbdbdb;
-  padding-top: 30px;
-  padding-bottom: 20px; 
-  margin-left: 15px;
-  margin-right: 15px;
-  font-weight: bold !important;
+.my-border-top {
+  border-top: 8px solid #4aaaa5;
 }
 
-.bio-section, 
-.contact-section,
-.portfolio-section {
-  padding-top: 10px;
+.my-border-bottom-2 {
+  border-bottom: 2px solid;
 }
 
-.bio-img {
-	margin-right:15px;
-	margin-bottom:0px;
-  max-width: 100%;
-  float: left !important;
+.my-border-secondary {
+  border-color: #dddddd;
 }
 
-.bio {
-  margin-top: -10px;
+.btn-primary {
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
 }
 
+/* Contact form css */
 input[type=text] {
   padding:10px; 
   margin-bottom: 10px;
@@ -110,43 +65,58 @@ input[type=submit] {
   cursor:pointer;
 }
 
-.porfolio-item {
-  float: left;
-  position: relative;
-  text-align: center;
-  margin-right: 30px;
+#submit {
+  margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 10px;
 }
 
-h3 {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  padding: 5px;
-  background-color: #4aaaa5;
-  color: #ffffff !important;
+/* media query for 640px screen or smaller */
+@media screen and (max-width: 640px) {
+  .my-sm-image-wrapper {
+      width: 100%;
+  }
+  
+  .card {
+      width: 100%;
+      height: auto;
+  }
+
+  .card-img {
+      width: 100%;
+      height: auto;
+  }
+
+  .my-bg-primary-sm {
+      background-color: #4aaaa5;
+      color: #ffffff;
+  }
+
+  .my-bg-secondary-sm {
+      background-color: #ffffff;
+      color: black;
+      width: 100%;
+      align-content: center;
+      justify-items: center;
+      justify-content: center;
+  }
+
+  .my-flex-sm-column {
+      flex-direction: column !important;
+  }
+
+  .my-navbar-sm {
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+      max-width: 640px;
+  }
 }
 
-footer {
-  border-top: 8px solid #4aaaa5;
-  background-color: #666666;
-  height: 50px;
-  color: #c2c2c2;
-  font-size: 8px;
-}
-
-footer div {
-  height: 100%;
-}
-
-footer .row > div {
-  width: 100%;
-  display: table;
-}
-
-.footer {
-  display: table-cell;
-  text-align: center;
-  vertical-align: bottom;
+/* Limit max width of container to match instructions */
+@media screen and (min-width: 1200px) {
+  .container {
+      max-width: 960px;
+  }
 }
