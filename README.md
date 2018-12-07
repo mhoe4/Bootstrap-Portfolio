@@ -1,10 +1,15 @@
 # Bootstrap-Portfolio
-My portfolio using Bootstrap
+My portfolio of work created using Bootstrap for the css styling
 
-1. Young Thug Hangman - Word guessing game using a Young Thug theme and Young Thug Songs
+## Index
+Short bio about Mark Hoefer
 
-What the project does
-Why the project is useful
-How users can get started with the project
-Where users can get help with your project
-Who maintains and contributes to the project
+## Portfolio
+Limited portfolio of Mark's work
+
+### Portfolio Items
+Young Thug Hangman - Word guessing game using a Young Thug theme and Young Thug Songs
+
+## Contact
+Means of contacting Mark Hoefer 
+
