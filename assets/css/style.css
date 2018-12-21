@@ -42,6 +42,11 @@ body {
   border-color: #4aaaa5;
 }
 
+.my-p-img {
+  height: 200px !important;
+  width: 400px !important;
+}
+
 /* Contact form css */
 input[type=text] {
   padding:10px; 
