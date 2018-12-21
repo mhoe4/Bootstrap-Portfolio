@@ -12,6 +12,8 @@ Limited portfolio of Mark's work
 
 `Crystal Collector` - Simple javascript game where the user tries to match the generated number by clicking on crystals which represent randomly generated values between 1 and 12.
 
+`Matrix Trivia` - Javascript trivia game where the user answers trivia question about the Matrix Trilogy.
+
 ## Contact
 Means of contacting Mark Hoefer 
 
