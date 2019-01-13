@@ -14,6 +14,10 @@ Limited portfolio of Mark's work
 
 `Matrix Trivia` - Javascript trivia game where the user answers trivia question about the Matrix Trilogy.
 
+`GifTastic` - Consumes the `Giphy API` allowing the user to search GIFs 
+
+`Train Scheduler` - Uses firebase to store information about train arrivals and MomentJS to calculate times
+
 ## Contact
 Means of contacting Mark Hoefer 
 
